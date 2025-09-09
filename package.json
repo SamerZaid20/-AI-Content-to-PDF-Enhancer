@@ -1,0 +1,19 @@
+{
+  "name": "ai-pdf-enhancer",
+  "version": "1.0.0",
+  "description": "AI Content-to-PDF Enhancer server",
+  "main": "mm.js",
+  "scripts": {
+    "start": "node mm.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.20.0",
+    "pdfkit": "^0.17.2"
+  }
+}
